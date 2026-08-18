@@ -1,0 +1,7 @@
+#reference "shaders_slang/hdr/crt-sony-megatron-default-hdr-NTSC.slangp"
+hcrt_hdr = "0.000000"
+hcrt_expand_gamut = "1.000000"
+hcrt_colour_space = "2.000000"
+hcrt_r709_gamma_out = "2.290000"
+hcrt_srgb_gamma_out = "2.450000"
+hcrt_p3_gamma_out = "2.630000"
