@@ -2,6 +2,12 @@
 
 Everything you'll need to get started with your Retroid Pocket Nova. 
 
+## Mods
+- 4:3 Nintendo Switch and PSP mods
+
+## Obtainium
+- Obtainium export with Apps, Emulators, Launchers, etc. for the RP Nova.
+
 ## Recommended Apps Not Available via Obtainium
 
 - [ES-DE](https://es-de.org/#Download)
