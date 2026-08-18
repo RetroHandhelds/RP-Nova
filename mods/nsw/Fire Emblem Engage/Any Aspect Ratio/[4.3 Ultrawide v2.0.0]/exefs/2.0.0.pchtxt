@@ -1,0 +1,26 @@
+@nsobid-8C08B9719E085F91847B5E0F935D9488
+
+# Fire Emblem Engage [0100A6301214E000][USA] v2.0.0 - 4:3
+
+@flag print_values
+@flag offset_shift 0x100
+
+// 4:3 Aspect Ratio
+// Use stretch to window option
+
+@enabled
+// s0 = min(original_aspect_ratio, 1.333)
+00924194 4038201E // fsub s0, s2, s0           ; Calculate original width
+00924198 0048231E // fmax s0, s0, s3           ; Ensure width >= 0
+0092419C 0018211E // fdiv s0, s0, s1           ; Calculate original aspect ratio
+009241A0 7E559552 // mov w30, #0xaaab          ; Load lower half of 1.333f
+009241A4 5EF5A772 // movk w30, #0x3faa, lsl 16 ; Load upper half of 1.333f
+009241A8 C203271E // fmov s2, w30              ; Move 1.333f to float register s2
+009241AC 0058221E // fmin s0, s0, s2           ; Apply min(original_ratio, 1.333)
+@stop
+
+@Fl4sh_#9174
+https://github.com/Fl4sh9174
+https://Ko-fi.com/Fl4sh9174
+
+// Updated by: TLin-Y

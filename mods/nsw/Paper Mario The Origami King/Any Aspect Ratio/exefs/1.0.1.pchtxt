@@ -1,0 +1,10 @@
+@nsobid-E74395F066FD8CCB51EC17B39B3DA2C8CF520089
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+002665b8 051ab7ee
+0026a2c8 69559552
+0026a2d4 49f5a772
+@stop

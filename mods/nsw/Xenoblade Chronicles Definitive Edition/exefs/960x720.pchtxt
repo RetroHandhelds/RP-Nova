@@ -1,0 +1,14 @@
+@nsobid-92C78BB3DCBBC3F7A3CAF601D7B85F7A36C20907
+
+# Xenoblade Chronicles Definitive Edition [0100FF500E34A000][USA] v1.1.2 - 4:3 (960x720)
+
+@flag print_values
+@flag offset_shift 0x100
+
+// Use stretch to window option
+// HUD may be messy
+
+@enabled
+00727C88 15788052
+00727C8C 165A8052
+@stop

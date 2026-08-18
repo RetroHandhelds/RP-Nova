@@ -1,0 +1,14 @@
+@nsobid-3A36C35D7B38DA3C5B96BD2D7FF2DDF1F50F7B13
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0380794c abaaaa3f
+019a5870 00B02E1E
+01EC1918 00B02E1E
+@disabled
+@stop
+
+// Generated using AnyAspectRatio by Fayaz
+// https://aar.fayaz.one

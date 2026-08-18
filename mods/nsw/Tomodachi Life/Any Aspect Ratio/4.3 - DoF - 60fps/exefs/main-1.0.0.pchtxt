@@ -1,0 +1,24 @@
+@nsobid-56BF85BD535413464CB75BB6C2683B6711E0BC0B
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+008ce854 88a53e14
+01877e70 c0035fd6
+01877e74 62559552
+01877e78 42f5a772
+01877e7c 4800271E
+01877e80 765ac117
+@disabled
+
+// 60 FPS
+@enabled
+0028b35c 34008052
+@disabled
+
+// Level of Detail
+@enabled
+0006419c 00103E1E
+000641f8 0010261E
+@stop

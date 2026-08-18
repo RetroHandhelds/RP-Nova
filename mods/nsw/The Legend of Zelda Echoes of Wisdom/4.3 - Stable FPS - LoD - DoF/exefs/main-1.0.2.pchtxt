@@ -1,0 +1,27 @@
+@nsobid-D1ED438C8BDAF4368B30DAEC53ED8E9BACD31A34
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00348b6c 69559552
+00348b70 49f5a772
+@disabled
+
+// Disable DOF
+@enabled
+0276C54C 1F7C0329
+@disabled
+
+// Level of Detail
+@enabled
+0032cfd0 00D0351E
+@disabled
+
+// Stable FPS
+@enabled
+0032d2ec 07000014
+@stop
+
+// Generated using AnyAspectRatio by Fayaz
+// https://aar.fayaz.one

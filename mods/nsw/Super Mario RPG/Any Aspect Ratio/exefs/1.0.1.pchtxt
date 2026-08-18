@@ -1,0 +1,12 @@
+@nsobid-97F9664CFB2721546954CDEB3B303A4C
+
+# Super Mario RPG [0100BC0018138000] v1.0.1 - 4:3 Aspect Ratio
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+00237584 5E559552
+00237588 5EF5A772
+0023758C C003271E
+@stop

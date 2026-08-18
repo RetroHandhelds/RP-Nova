@@ -1,0 +1,57 @@
+@nsobid-CBE4696EC90B4582092D9EFB6B962074B85EADE7
+
+@flag print_values
+@flag offset_shift 0x100
+
+@enabled
+0121B064 mov w30, #0xAAAB
+0121B068 movk w30, #0x3FAA, lsl #16
+0121B06C C003271E
+05583440 movk w10, #0x3FAA, lsl #16
+0290D688 movk w8, #0x3FAA, lsl #16
+0290DA48 movk w8, #0x3FAA, lsl #16
+02B3A5DC movk w8, #0x3FAA, lsl #16
+02B3B594 movk w8, #0x3FAA, lsl #16
+02D1F9F4 movk w8, #0x3FAA, lsl #16
+04EF8D20 movk x1, #0x3FAA, lsl #48
+04E6FD24 movk x3, #0x3FAA, lsl #48
+0134E09C movk x8, #0x3FAA, lsl #48
+02AFEE88 movk x8, #0x3FAA, lsl #48
+04F1A364 movk x8, #0x3FAA, lsl #48
+04F22140 movk x8, #0x3FAA, lsl #48
+04E5F180 movk x9, #0x3FAA, lsl #48
+04E7E2FC movk x9, #0x3FAA, lsl #48
+04F93380 movk x9, #0x3FAA, lsl #48
+02B31D20 movk w10, #0x3FAA, lsl #16
+055E77F0 movk w10, #0x3FAA, lsl #16
+02B3468C movk w12, #0x3FAA, lsl #16
+04E5F27C movk w12, #0x3FAA, lsl #16
+04F1A17C movk w13, #0x3FAA, lsl #16
+04F1994C movk w14, #0x3FAA, lsl #16
+0121A650 movk w16, #0x3FAA, lsl #16
+027DC9C4 movk w10, #0x3FAA, lsl #16
+019C6BAC movk x10, #0x3FAA, lsl #48
+018D1F40 movk w8, #0x3FAA, lsl #16
+0186EFFC movk x9, #0x3FAA, lsl #48
+0186EFFC movk x9, #0x3FAA, lsl #48
+@disabled
+
+// 60 FPS
+@enabled
+055DF8F0 74559552
+016432A4 480D1E32
+011E85D0 480D1E32
+0167E5BC 480D1E32
+0237604C 480D1E32
+04140198 480D1E32
+04140D90 480D1E32
+04141268 480D1E32
+04141340 480D1E32
+011E85D0 480D1E32
+011E85D0 480D1E32
+041410A8 480D1E32
+@stop
+
+
+// Generated using AnyAspectRatio by Fayaz
+// https://aar.fayaz.one

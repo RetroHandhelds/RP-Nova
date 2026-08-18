@@ -1,0 +1,15 @@
+@nsobid-C632B6C8CD8250B1A172748943CE50B7
+
+# Musou Orochi 2 Ultimate [0100153006300000] v1.0.2 - 4:3
+@flag print_values
+@flag offset_shift 0x100
+
+// Use stretch to window option
+
+@enabled
+0059d75c 01D02E1E // 4:3
+@stop
+
+@Tlin-Y
+https://github.com/Fl4sh9174/Switch-Emulator-Ultrawide-FPS-Mods
+https://Ko-fi.com/Fl4sh9174
